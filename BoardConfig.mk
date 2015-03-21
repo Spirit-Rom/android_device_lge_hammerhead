@@ -30,18 +30,6 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=hammerhea
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
-# Compiler flags
-ENABLE_GCCONLY := true
-ENABLE_GRAPHITE := true
-GRAPHITE_OPTS := true
-KRAIT_TUNINGS := true
-STRICT_ALIASING := true
-SUPPRES_UNUSED_WARNING := true
-TARGET_GCC_VERSION_EXP := 4.8
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.9
-TARGET_USE_PIPE := true
-USE_O3_OPTIMIZATIONS := true
-
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
 # Increase the size if shaders of size greater than 12KB are used.
