@@ -13,13 +13,11 @@
 # limitations under the License.
 #
 
-ENABLE_GCCONLY := true
 O3_OPTIMIZATIONS := true
 KRAIT_TUNINGS := true
 STRICT_ALIASING := true
 SUPPRES_UNUSED_WARNING := true
+TARGET_ARCH := arm
 TARGET_LIB_VERSION := 4.8
 TARGET_SM_AND := 4.8
 TARGET_SM_KERNEL := 4.9
-
-include vendor/spirit/config/sm.mk
